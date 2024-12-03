@@ -1,0 +1,27 @@
+Vértices  | | Relaciona com
+  U	  ->     P, V 
+  V	  ->     U, Q, X
+  P	  ->     K, U
+  K	  ->     P
+  Q	  ->     L, V
+  X	  ->     V, Y
+  F	  ->     G, A
+  L	  ->     M, Q
+  E	  ->     M, S
+  Y	  ->     X, Z
+  A	  ->     B, A
+  G	  ->     F, H
+  M	  ->     L, E, N
+  S	  ->     E, T
+  Z	  ->     Y, T
+  B	  ->     A
+  H	  ->     G, C, I
+  N	  ->     M, I, O
+  T	  ->     S, Z
+  C	  ->     H, D
+  I	  ->     H, N
+  O	  ->     N
+  D	  ->     C, E
+  J	  ->     E
+  E	  ->     D, J
+  
