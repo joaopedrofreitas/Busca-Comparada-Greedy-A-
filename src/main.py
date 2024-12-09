@@ -1,3 +1,4 @@
+
 import math
 from Search import *
 from Graph import graph
@@ -44,8 +45,8 @@ def imprimir_desempenho(nome_algoritmo, avg_tempo, avg_memoria_atual, avg_memori
 
 num_execucoes = 100
 
-tempo_bfs, memoria_bfs_atual, memoria_bfs_pico, std_tempo_bfs, std_mem_bfs_atual, std_mem_bfs_pico, caminho_bfs = medir_multiple_execucoes(BFS, graph, num_execucoes)
-tempo_dfs, memoria_dfs_atual, memoria_dfs_pico, std_tempo_dfs, std_mem_dfs_atual, std_mem_dfs_pico, caminho_dfs = medir_multiple_execucoes(DFS, graph, num_execucoes)
+tempo_gbf, memoria_gbf_atual, memoria_gbf_pico, std_tempo_gbf, std_mem_gbf_atual, std_mem_gbf_pico, caminho_gbf = medir_multiple_execucoes(GBF, graph, num_execucoes)
+tempo_a, memoria_a_atual, memoria_a_pico, std_tempo_a, std_mem_a_atual, std_mem_a_pico, caminho_a = medir_multiple_execucoes(A_Star, graph, num_execucoes)
 
-imprimir_desempenho("BFS", tempo_bfs, memoria_bfs_atual, memoria_bfs_pico, std_tempo_bfs, std_mem_bfs_atual, std_mem_bfs_pico, caminho_bfs)
-imprimir_desempenho("DFS", tempo_dfs, memoria_dfs_atual, memoria_dfs_pico, std_tempo_dfs, std_mem_dfs_atual, std_mem_dfs_pico, caminho_dfs)
+imprimir_desempenho("Busca Golosa", tempo_gbf, memoria_gbf_atual, memoria_gbf_pico, std_tempo_gbf, std_mem_gbf_atual, std_mem_gbf_pico, caminho_gbf)
+imprimir_desempenho("A estrela", tempo_a, memoria_a_atual, memoria_a_pico, std_tempo_a, std_mem_a_atual, std_mem_a_pico, caminho_a)
