@@ -70,10 +70,11 @@ node_positions = {
 }
 
 
-def Graph():    #Consumindo o grafo em csv e retornando em matriz
-    graph = read_csv('./data/Maze.csv')  #Consumindo csv
-    graph.drop(['Unnamed: 0'], axis=1, inplace=True)
-    return graph.to_numpy()
+
+#def Graph():    #Consumindo o grafo em csv e retornando em matriz
+#    graph = read_csv('./data/Maze.csv')  #Consumindo csv
+#    graph.drop(['Unnamed: 0'], axis=1, inplace=True)
+#    return graph
 
 
 
