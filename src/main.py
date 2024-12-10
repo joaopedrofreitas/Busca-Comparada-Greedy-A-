@@ -38,10 +38,12 @@ def medir_multiple_execucoes(algoritmo, grafo, num_execucoes=5):
     return avg_tempo, avg_memoria_atual, avg_memoria_pico, std_tempo, std_memoria_atual, std_memoria_pico, primeiro_caminho
 
 def imprimir_desempenho(nome_algoritmo, avg_tempo, avg_memoria_atual, avg_memoria_pico, std_tempo, std_memoria_atual, std_memoria_pico, caminho):
+    print("-----------------------------------------------------------------------------------------------------")
     print(f"\nDesempenho do {nome_algoritmo}:")
     print(f"Tempo de execução médio: {avg_tempo:.6f} segundos (Desvio padrão: {std_tempo:.6f})")
     print(f"Memória utilizada média: {avg_memoria_atual:.2f} KB (atual), {avg_memoria_pico:.2f} KB (pico) ")
     print(f"Caminho: {caminho}")
+    print("\n-----------------------------------------------------------------------------------------------------")
 
 num_execucoes = 100
 
