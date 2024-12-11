@@ -35,7 +35,7 @@ Devido a implementação das arestas possuirem apenas peso '1', o valor avaliado
 * Busca Gulosa: 0.000020(±0.000008) segundos. 
 * A-estrela:    0.000042(±0.000021) segundos.
 
-Pela complexidade maior do A-estrela o seu tempo de execução foi maior, o caso em questão é um grafo simples onde as arestas possuem o mesmo peso, ABusca Gulosa obteve o mesmo resultado, que foi ótimo, com menor tempo que o A-estrela que garante o resultado ótimo, porém é mais custoso.
+Pela complexidade maior do A-estrela o seu tempo de execução foi maior, o caso em questão é um grafo simples onde as arestas possuem o mesmo peso, ABusca Gulosa obteve o mesmo resultado, que foi ótimo, com menor tempo que o A-estrela que garante o resultado ótimo, porém é mais custoso. A média do tempo e o desvio padrão foi calculado em 100 execuções.
 ### COMPARAÇÃO CUSTO DE MEMÓRIA 🧠
 
 * Busca Gulosa: 0.10KB, 1.65KB (pico).
